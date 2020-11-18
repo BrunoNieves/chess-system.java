@@ -40,19 +40,14 @@ public class Program {
 					captured.add(capturedPiece);
 				}
 			}
-		
 			catch (ChessException e) {
 				System.out.println(e.getMessage());
 				teclado.nextLine();
 			}
-			
 			catch (InputMismatchException e) {
 				System.out.println(e.getMessage());
 				teclado.nextLine();
 			}
-			
 		}
-		
 	}
-
 }
